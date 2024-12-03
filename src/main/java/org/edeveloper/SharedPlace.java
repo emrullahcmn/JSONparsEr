@@ -53,7 +53,7 @@ class SharedPlace{
         return this.line;
     }
 
-    synchronized void lineReaded(){
+    synchronized void lineRead(){
         isLineParsed = true;
         notifyAll();
     }

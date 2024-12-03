@@ -28,7 +28,7 @@ public class Main {
         System.out.println(notes);
 
         /*
-         * Notes about integer handling, integers will be stored in long or int type if they cannot be stored in int data type.
+         * Notes about integer handling, integers will be stored in long type if they cannot be stored in int data type.
          * But if they exceed the limit of long data type, they won't be stored in double data type.
          */
     }

@@ -228,8 +228,6 @@ final public class JSONparsEr{
 
         intNow = integer();
         if(intNow.charAt(0) == '0' && intNow.length() > 1){
-            System.out.println("INTNOW: "+ intNow);
-
             throw new Exception("error, not an integer, line at:"+sharedPlace.getLineCount() + " char at:" + (indx));
         }
 
@@ -486,7 +484,7 @@ final public class JSONparsEr{
     private void empty(){
 
         if(indx == len){
-            sharedPlace.lineReaded();
+            sharedPlace.lineRead();
             String nLine = sharedPlace.getLine();
             indx = 0;
             if(nLine == null){
@@ -526,7 +524,7 @@ final public class JSONparsEr{
 
     private void increaseIndex(){
         if(indx + 1 == len){
-            sharedPlace.lineReaded();
+            sharedPlace.lineRead();
             String nLine = sharedPlace.getLine();
             indx = 0;
             if(nLine == null){
