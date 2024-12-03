@@ -1,0 +1,86 @@
+{
+"parts"
+
+
+:
+
+{
+
+"wheels"
+
+:[1,2,3,4],
+
+
+"brands"
+
+:["mercedes", "audi", "ferrari",
+"loader"
+
+],
+
+"other info": [ [ [], []  ],
+                  "\u1234",
+                  100,
+                  0.01,
+                  -0.01,
+                  -100,
+                  "\"",
+                  "\/",
+                  "\b",
+                  "\f",
+                  "\n",
+                  "\r",
+                  "\t",
+                  {
+                      "name": "John Doe",
+                      "age": 24,
+                      "isStudent": false,
+                      "doesHeMakeProjects": true,
+                      "hobbies": [
+                          "watching football games",
+                          "reading english",
+                          "learning java"
+                      ],
+                      "favourite char": "\uffff",
+                      "another fav char": "\t",
+                      "m-d array": [
+                          [
+                              1,
+                              2,
+                              3
+                          ],
+                          [
+                              4,
+                              [
+                                  5,
+                                  [
+                                      6,
+                                      [
+                                          7
+                                      ]
+                                  ]
+                              ]
+                          ]
+                      ],
+                      "numbers that he loves": {
+                          "includes": [
+                              130,
+                              -230,
+                              0.013,
+                              -0.023
+                          ]
+                      },
+                      "platforms he follows" : ["uefa european league", "uefa champions league"],
+                      "doesHePlayFootballHimself" :          true
+                  },
+                  1e1,
+                  2e-3,
+                  -1.456,
+              [1e2, -1e2, 0.2e1, -0.2e1, -0.2e-1, 100, -100, -0.21, 1e3, -7e-3, -7e+3, 29e2, 29e-2, -29e+3, 3333333333]
+              ]
+}, "canBeSupplied": false, "notes": null
+
+
+
+
+}
